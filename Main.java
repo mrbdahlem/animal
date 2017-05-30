@@ -4,21 +4,18 @@ public class Main {
         Animal cow = new Cow();
         Animal pig = new Pig();
         Animal fox = new Fox();
+        Animal a;
         
-        System.out.print("The Dog Says: ");
-        speak(dog);
+        a = dog;
+        System.out.print("The Dog Says: " + a.talk());
         
-        System.out.print("The Cow Says: ");
-        speak(cow);
+        a = cow;
+        System.out.print("The Cow Says: " + a.talk());
         
-        System.out.print("The Pig Says: ");
-        speak(pig);
-        
-        System.out.print("The Fox Says: ");
-        speak(fox);
-    }
-    
-    public static void speak(Animal a) {
-        a.talk();
+        a = pig;
+        System.out.print("The Pig Says: " + a.talk());
+                
+        a = fox;
+        System.out.print("The Fox Says: " + a.talk());
     }
 }
