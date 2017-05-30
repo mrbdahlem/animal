@@ -1,7 +1,7 @@
 public class Fox extends Animal
 {
-    public void talk()
+    public String talk()
     {
-        System.out.println("???");
+       return "???";
     }
 }
