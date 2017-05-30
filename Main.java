@@ -7,15 +7,15 @@ public class Main {
         Animal a;
         
         a = dog;
-        System.out.print("The Dog Says: " + a.talk());
+        System.out.println("The Dog Says: " + a.talk());
         
         a = cow;
-        System.out.print("The Cow Says: " + a.talk());
+        System.out.println("The Cow Says: " + a.talk());
         
         a = pig;
-        System.out.print("The Pig Says: " + a.talk());
+        System.out.println("The Pig Says: " + a.talk());
                 
         a = fox;
-        System.out.print("The Fox Says: " + a.talk());
+        System.out.println("The Fox Says: " + a.talk());
     }
 }
