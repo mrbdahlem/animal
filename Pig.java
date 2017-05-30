@@ -1,7 +1,7 @@
 public class Pig extends Animal
 {
-    public void talk()
+    public String talk()
     {
-        System.out.println("Oink");
+        return "Oink";
     }
 }
